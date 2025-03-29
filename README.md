@@ -11,4 +11,13 @@ A Discriminator that tries to distinguish between real and fake images.
 ---
 ## How to start ##
 
-1. Clone the repository
+1. Clone the repository ``` https://github.com/vardhini3103/MNIST-synth.git ```
+2. Install the dependencies ``` pip install -r requirements.txt ```
+3. Run the training ``` python my_gan.py ```
+
+---
+## Architecture ##
+1. Generator: Multi-layer perceptron with batch normalization and ReLU activation
+2. Discriminator: Multi-layer perceptron with LeakyReLU activation
+3. Input dimension: 784 (28x28 MNIST images)
+4. Latent dimension: 64
